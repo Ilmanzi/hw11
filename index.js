@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 app.use(morgan('combined'))
 
 
-// app.get('/ping', (req,res) => {
-//     res.json({ping: true})
-// })
+app.get('/ping', (req,res) => {
+    res.json({ping: true})
+})
 
 app.use(todoroutes)
 

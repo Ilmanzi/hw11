@@ -1,4 +1,5 @@
 FROM node:18
+FROM postgres:latest
 
 # Set the working directory
 WORKDIR /HW11
