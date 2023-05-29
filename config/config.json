@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "kacang",
+    "password": "kacang",
+    "database": "hw11",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "kacang",
+    "password": "kacang",
+    "database": "hw11",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "kacang",
+    "password": "kacang",
+    "database": "hw11",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}
