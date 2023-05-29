@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "nodemon app.js",
+    "dev1": "node.exe app.js",
     "test": "jest --forceExit"
   },
   "dependencies": {

@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Specify the command to run the app
-CMD npm run dev
+CMD npm run dev1
