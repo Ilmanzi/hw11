@@ -1,4 +1,3 @@
-# Dockerfile
 FROM node:18
 
 # Set the working directory
@@ -12,6 +11,9 @@ RUN npm install
 
 # Copy the app's source code
 COPY . .
+
+# Copy the SQL initialization script
+COPY init.sql /docker-entrypoint-initdb.d/init.sql
 
 # Specify the command to run the app
 CMD npm run dev1
